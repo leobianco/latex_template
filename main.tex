@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+
+
+% Graphics
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% Mathematics and code
+\usepackage{amssymb,amsthm,amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+% Fonts, symbols, languages
+\usepackage[utf8]{inputenc}
+\usepackage{ebgaramond}  % palatino, ebgaramond
+%\usepackage[francais]{babel}
+
+% References and links
+\usepackage{hyperref}
+\usepackage{url}
+
+% Subfile (last)
+\usepackage{subfiles}
+
+
+\title{<+Title+>}
+\author{<+Author+>}
+\date{ }  % Omits date
+
+
+\begin{document}
+
+% Title page, abstract, ToC
+\maketitle
+\begin{abstract}
+	This is the abstract.
+\end{abstract}
+\tableofcontents
+
+
+% Sections
+\subfile{sections/introduction}
+%\subfile{sections/<+Section+>}
+
+% Bibliography
+\clearpage  % Separate page for bibliography
+%\nocite{*}  % Cites all entries in references.bib
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
