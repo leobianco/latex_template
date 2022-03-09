@@ -1,1 +1,1 @@
-* Add page number to beamer template.
+A simple to-do list to organize your project.
