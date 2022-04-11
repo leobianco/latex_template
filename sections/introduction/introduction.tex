@@ -9,8 +9,9 @@ This is a brief introduction. This is an example citation \cite{example_ref}.
 % Example of tikz or figure subfile
 \begin{figure}[ht]
 	\centering
-	% tikz tex files are not taken into account by \graphicspath
-	\subfile{../../images/tikz/tikz_example/tikz_example.tex}
+	% tikz tex files are not taken into account by \graphicspath, indicate
+	% images folder explicitly
+	\subfile{./images/tikz/tikz_example/tikz_example.tex}
 	\caption{<+caption text+>}
 	\label{fig:<+label+>}
 \end{figure}
